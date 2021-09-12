@@ -8,5 +8,8 @@
 #define FUNCTION_NEW_FEATURES_H
 
 void TestNewFeature();
+void TestDefaultParam();
+void TestOverload();
+void TestTemplate();
 
 #endif //FUNCTION_NEW_FEATURES_H

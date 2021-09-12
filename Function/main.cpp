@@ -3,15 +3,20 @@
 #include "new_features.h"
 #include <stdio.h>
 
-int testfunc(const int x){
+using namespace std;
 
-    return x*x;
-}
 int main() {
     std::cout << "Hello, World!" << std::endl;
     TestFuncParam();
     TestNewFeature();
-    auto tmp="pizza"[2];
-    std::cout<<"test const "<<tmp<<std::endl;
+    TestDefaultParam();
+    TestOverload();
+    TestTemplate();
+    cout<<"cin str"<<endl;
+    char sz[20]{};
+    cin.get(sz,20);
+    cout<<sz<<" disp "<<cin.fail()<<endl;
+    cin.get(sz,20);
+    cout<<sz<<" disp"<<endl;
     return 0;
 }
