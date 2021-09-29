@@ -11,6 +11,7 @@
 using namespace std;
 
 unsigned int CalcFactorial(unsigned int x){
+
     if(x==0){
         return 1;
     } else{
@@ -165,8 +166,9 @@ int PtString(const char * pChar){
     return 0;
 }
 
-
+#include "name_space.h"
 void TestTemplate(){
+
     blot tmp{10,"123"};
     int x=10;
     recycle(x);
@@ -181,6 +183,7 @@ void TestTemplate(){
         lower[j]=toupper(lower[j]);
     }
     cout<<lower<<endl;
+    person::PtPersonality();
 
 
 

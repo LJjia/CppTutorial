@@ -8,6 +8,9 @@
 #include <iostream>
 using namespace std;
 
+
+
+
 inline int add(int x,int y){
     int c=x+y;
     return c;
@@ -91,7 +94,12 @@ void UseReference(){
 
 }
 
+#include "name_space.h"
 void TestNewFeature(){
-    UseInlineFunc();
-    UseReference();
+//    UseInlineFunc();
+//    UseReference();
+//    using person::personality;
+    using person::PtPersonality;
+    PtPersonality();
+
 }
