@@ -3,6 +3,7 @@
 
 using namespace std;
 
+void TestMyStrings();
 void TestTimer();
 void TestMinute();
 int main() {
@@ -17,6 +18,7 @@ int main() {
 //    Stock1_1 s_var;
 //    cout<<"sizeof static "<< sizeof(s_var)<<endl;
 //    TestTimer();
-    TestMinute();
+//    TestMinute();
+    TestMyStrings();
     return 0;
 }

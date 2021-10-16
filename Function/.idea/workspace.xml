@@ -12,12 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92273eca-5087-4a27-b855-57412ff8961b" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/name_space.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/name_space.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_features.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/new_features.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_func.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/run_func.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectAndClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectAndClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectAndClass/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectAndClass/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/Search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/dictionaries/ljjia.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/MyStrings.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/MyStrings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/OrderArraySearch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/main.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,12 +71,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_func.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="101" column="3" lean-forward="true" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+            <state relative-caret-position="221">
+              <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
               <folding>
                 <element signature="e#100#119#0" expanded="true" />
-                <element signature="e#1595#1607#0" expanded="true" />
-                <element signature="e#1990#2015#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_features.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="2448">
               <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
               <folding>
                 <element signature="e#106#131#0" expanded="true" />
@@ -88,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/name_space.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="456">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -268,7 +275,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,6 +313,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dasda.h" />
+    <entry file="file://$PROJECT_DIR$/dadas.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -320,19 +329,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dasda.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dadas.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_features.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="2448">
           <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
           <folding>
             <element signature="e#106#131#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/name_space.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -343,13 +353,6 @@
           <folding>
             <element signature="e#111#130#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/name_space.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -365,12 +368,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_func.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="101" column="3" lean-forward="true" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+        <state relative-caret-position="221">
+          <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
           <folding>
             <element signature="e#100#119#0" expanded="true" />
-            <element signature="e#1595#1607#0" expanded="true" />
-            <element signature="e#1990#2015#0" expanded="true" />
           </folding>
         </state>
       </provider>
