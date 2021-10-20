@@ -28,6 +28,16 @@ Minute::Minute(int min, int sec) {
     second=sec%60;
 }
 
+/*!
+ * 拷贝构造函数
+ * @param t
+ */
+Minute::Minute(const Minute& t){
+    printf("call copy structure\n");
+    minute=t.minute;
+    second=t.second;
+}
+
 std::ostream & operator<<(std::ostream & os,Minute & t){
     return os<<"minute "<<t.minute<<" second "<<t.second;
 }
@@ -70,4 +80,5 @@ void TestMinute(){
     Minute negative=-t1;
     cout <<"out time "<<t1<<endl;
     cout <<"out time "<<negative<<endl;
+
 }

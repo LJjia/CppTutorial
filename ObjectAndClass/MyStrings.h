@@ -17,11 +17,15 @@ public:
     MyStrings(const MyStrings & str0);
     ~MyStrings();
     int length() const{return len;}
+    int StaticAppearTimes(char c) const;
+    const MyStrings& upper();
+    const MyStrings& low();
     // 赋值运算符重载,目的是为了实现深拷贝,避免多次释放
-    MyStrings &operator=(const MyStrings& str0);
+    MyStrings& operator=(const MyStrings& str0);
     MyStrings &operator=(const char *pChar);
     friend bool operator<(const MyStrings& str1,const MyStrings& str2);
     friend bool operator>(const MyStrings& str1,const MyStrings& str2);
+    friend const MyStrings operator+(const MyStrings& str1,const MyStrings& str2);
     friend bool operator==(const MyStrings& str1,const MyStrings& str2);
     friend std::ostream& operator<<(std::ostream& os,const MyStrings& str0);
     char &operator[](int i);
@@ -35,3 +39,5 @@ private:
 
 
 #endif //SEARCH_MYSTRINGS_H
+
+

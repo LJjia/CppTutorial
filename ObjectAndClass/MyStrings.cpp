@@ -14,6 +14,7 @@ int MyStrings::sNumString=0;
 
 MyStrings::MyStrings() {
     cout<<"default structure"<<endl;
+    // 使用new char[]这种形式方便delete的时候可以delete []
     pStr=new char[1];
     pStr[0]='\0';
     sNumString++;
@@ -29,6 +30,9 @@ MyStrings::MyStrings(const char *pChar) {
 
 MyStrings::~MyStrings() {
 
+    if(pStr){
+        printf("free object %s\n",pStr);
+    }
     delete []pStr;
     sNumString--;
 }
@@ -71,6 +75,7 @@ MyStrings& MyStrings::operator=(const MyStrings &str0) {
     if(this==&str0){
         return *this;
     }
+    printf("call func %s\n",pStr);
     delete []pStr;
     len=strlen(str0.pStr);
     pStr=new char[len+1];
@@ -103,6 +108,18 @@ bool operator==(const MyStrings& str1,const MyStrings& str2){
     return std::strcmp(str1.pStr,str2.pStr)==0;
 }
 
+const MyStrings operator+(const MyStrings& str1,const MyStrings& str2){
+    int length;
+    char* pNew= nullptr;
+    length=str1.len+str2.len;
+    pNew=new char[length+1];
+    strcpy(pNew,str1.pStr);
+    strcpy(&pNew[str1.len],str2.pStr);
+    pNew[length]=0;
+    return MyStrings(pNew);
+
+}
+
 /*!
  * 重载取索引运算符
  * 对于非const对象,可做左值
@@ -127,19 +144,73 @@ std::ostream& operator<<(std::ostream & os,const MyStrings& str0){
     return os<<str0.pStr;
 }
 
+/*!
+ * 统计某个字符在本字符串中出现了几次
+ * @param c
+ * @return
+ */
+int MyStrings::StaticAppearTimes(char c) const{
+    int cnt=0;
+    char *pChar= 0;
+    pChar=pStr;
+    if(pChar== nullptr){
+        return 0;
+    }
+    while(*pChar!='\0'){
+        pChar++;
+        if(*pChar==c){
+            cnt++;
+        }
+    }
+    return cnt;
+}
+
+/*!
+ * 字符转大写,修改本对象字符串,返回对象本身
+ * @return
+ */
+const MyStrings& MyStrings::upper(){
+    for(int i=0;i<len;i++){
+        if(islower(pStr[i])){
+            pStr[i]=toupper(pStr[i]);
+        }
+    }
+    return *this;
+}
+
+/*!
+ * 字符转小写,修改对象字符串,并返回对象本身
+ * @return
+ */
+const MyStrings& MyStrings::low(){
+    for(int i=0;i<len;i++){
+        if(isupper(pStr[i])){
+            pStr[i]=tolower(pStr[i]);
+        }
+    }
+    return *this;
+}
+
+
 int MyStrings::HowMany() {
     return sNumString;
 }
+
 
 void DispMyStrings(MyStrings data){
     cout<<data<<endl;
 }
 
-void TestMyStrings(){
+void TestMyStrings() {
     {
-        MyStrings str1="12345";
-        MyStrings str2="13345";
-        MyStrings str3=str1;
+        // 下面这句话相当于 MyStrings str1=MyStrings("12345");
+        // 调用const char*参数类型的构造函数
+        MyStrings str1 = "12345";
+        MyStrings str2="67890";
+        MyStrings str3="24863";
+        printf("----------\n");
+        str1=str2=str3;
+        printf("----------\n");
         bool bBool;
         bBool=str1>str2;
         cout<<"str1 > str2?"<<bBool<<endl;
@@ -153,6 +224,19 @@ void TestMyStrings(){
         cout<<"idx "<<str1[0]<<" "<<str1[1]<<endl;
         DispMyStrings(str1);
     }
-    cout<<"how many call "<<MyStrings::HowMany();
+    cout<<"how many call "<<MyStrings::HowMany()<<endl;
+    printf("build last strings \n");
+    MyStrings last;
+    MyStrings part1="1234";
+    MyStrings part2="7890";
+    last=part1+part2+"last";
+
+    cout<<"+++++"<<last<<endl;
+    MyStrings testStr="AaaaBbCCd";
+    cout<<testStr<<endl;
+    cout<<"static a appear times "<<testStr.StaticAppearTimes('a')<<endl;
+    cout<<testStr.low()<<endl;
+    cout<<testStr.upper()<<endl;
+
 }
 

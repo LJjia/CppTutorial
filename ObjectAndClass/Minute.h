@@ -23,6 +23,7 @@ public:
     Minute(double t);
     Minute(int t);
     Minute(int min,int sec);
+    Minute(const Minute& t);
 //    Minute operator+(const Minute & t);
 //    Minute operator+(double t);
     friend std::ostream & operator<<(std::ostream & os,Minute & t);
