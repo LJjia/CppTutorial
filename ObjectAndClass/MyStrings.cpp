@@ -21,7 +21,7 @@ MyStrings::MyStrings() {
 }
 
 MyStrings::MyStrings(const char *pChar) {
-    cout<<"cchar structure"<<endl;
+    cout<<"cchar structure"<<pChar<<endl;
     len=strlen(pChar);
     pStr=new char[len+1];
     strcpy(pStr,pChar);
@@ -42,7 +42,7 @@ MyStrings::~MyStrings() {
  * @param str0
  */
 MyStrings::MyStrings(const MyStrings &str0) {
-    cout<<"copy structure"<<endl;
+    cout<<"copy structure source "<<str0.pStr<<endl;
     len=strlen(str0.pStr);
     pStr=new char[len+1];
     strcpy(pStr,str0.pStr);
@@ -75,7 +75,7 @@ MyStrings& MyStrings::operator=(const MyStrings &str0) {
     if(this==&str0){
         return *this;
     }
-    printf("call func %s\n",pStr);
+    printf("call operator func equal %s\n",pStr);
     delete []pStr;
     len=strlen(str0.pStr);
     pStr=new char[len+1];
@@ -116,7 +116,8 @@ const MyStrings operator+(const MyStrings& str1,const MyStrings& str2){
     strcpy(pNew,str1.pStr);
     strcpy(&pNew[str1.len],str2.pStr);
     pNew[length]=0;
-    return MyStrings(pNew);
+    MyStrings newObj(pNew);//=MyStrings(pNew);
+    return newObj;
 
 }
 
@@ -201,6 +202,10 @@ void DispMyStrings(MyStrings data){
     cout<<data<<endl;
 }
 
+void InputPoint(const MyStrings &pStrings){
+    cout<<"===len "<<pStrings.length()<<endl;
+}
+
 void TestMyStrings() {
     {
         // 下面这句话相当于 MyStrings str1=MyStrings("12345");
@@ -237,6 +242,11 @@ void TestMyStrings() {
     cout<<"static a appear times "<<testStr.StaticAppearTimes('a')<<endl;
     cout<<testStr.low()<<endl;
     cout<<testStr.upper()<<endl;
+    cout<<"------------"<<endl;
+//    last=part1+part2;
+    part1+part2;
+    cout<<"-------------"<<endl;
 
+    InputPoint("123");
 }
 
