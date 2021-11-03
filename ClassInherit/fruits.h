@@ -62,10 +62,12 @@ class BaseShape{
 public:
     explicit BaseShape(){std::cout<<"Base shape default construct"<<std::endl;}
     virtual int Area() const =0;
+//    virtual int Area();
     void Hide(){std::cout<<"Base hide"<<std::endl;}
     void Hide(int a){std::cout<<"Base hide 1param"<<std::endl;}
     void Hide(int a,int b){std::cout<<"Base hide 2param"<<std::endl;}
     virtual BaseShape & operator=(const BaseShape &){std::cout<<"call Base equal operator"<<std::endl;return *this;}
+    virtual void virInherit(){std::cout<<"base shape inhrit"<<std::endl;};
 };
 class Circle:public BaseShape{
 private:
@@ -73,9 +75,16 @@ private:
 public:
     explicit Circle(){std::cout<<"circle construct "<<std::endl;}
     void IsCircle(){std::cout<<"is acircle "<<std::endl;}
-    virtual int Area() const{std::cout<<"is a son class "<<std::endl;return 1;};
+    virtual int Area() const override {std::cout<<"is a son class "<<std::endl;return 1;};
     void Hide(){BaseShape::Hide();BaseShape::Hide(1);BaseShape::Hide(1,2);;std::cout<<"Cicle hide"<<std::endl;}
     Circle & operator=(const Circle &){std::cout<<"call Circle equal operator"<<std::endl;return *this;}
+    void virInherit() override {std::cout<<"--circle inherit--"<<std::endl;};
+};
+
+class Summetry:public Circle{
+public:
+    Summetry():Circle::Circle(){};
+    void Call(){BaseShape::virInherit();}
 };
 
 class AppleTree:public Apple{

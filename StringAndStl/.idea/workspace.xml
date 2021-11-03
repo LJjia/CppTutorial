@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ClassInherit" targetName="ClassInherit" />
+      <config projectName="StringAndStl" targetName="StringAndStl" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79e2d2f-05e7-4095-a8d6-140c384b8230" name="默认更改列表" comment="">
+    <list default="true" id="5b9983ae-02a6-4ce4-a90e-6e0a3cbb4a6d" name="默认更改列表" comment="">
       <change afterPath="$PROJECT_DIR$/../CodeReuse/.idea/CodeReuse.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/.idea/misc.xml" afterDir="false" />
@@ -22,13 +22,35 @@
       <change afterPath="$PROJECT_DIR$/../CodeReuse/Students.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/Students.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/TestClassTp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeReuse/friend.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeReuse/friend.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/main.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/stacktp.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/worker.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CodeReuse/worker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/fruits.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruits.h" beforeDir="false" afterPath="$PROJECT_DIR$/fruits.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/.idea/FriendsException.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/QueueTp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/QueueTp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/TestInlineFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/err_proc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/error_class.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/rtti.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/rtti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/tv.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FriendsException/tv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jupyter/.ipynb_checkpoints/FirstTest-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jupyter/FirstTest.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassInherit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassInherit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassInherit/fruits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassInherit/fruits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassInherit/fruits.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassInherit/fruits.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ObjectAndClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectAndClass/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -40,55 +62,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="48">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fruits.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="100" column="15" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fruits.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="70" column="2" lean-forward="true" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
-              <folding>
-                <element signature="e#178#195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Usage</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -96,19 +85,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TableTennis.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/fruits.cpp" />
-        <option value="$PROJECT_DIR$/fruits.h" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="744" />
-    <option name="y" value="256" />
-    <option name="width" value="1390" />
-    <option name="height" value="1007" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,17 +100,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ClassInherit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClassInherit" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +205,7 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration name="ClassInherit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClassInherit" TARGET_NAME="ClassInherit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ClassInherit" RUN_TARGET_NAME="ClassInherit">
+    <configuration name="StringAndStl" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StringAndStl" TARGET_NAME="StringAndStl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="StringAndStl" RUN_TARGET_NAME="StringAndStl">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -242,63 +215,35 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="调试" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32959184" />
+      <window_info anchor="right" id="make" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="make" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TableTennis.cpp" />
-    <entry file="file://$PROJECT_DIR$/TableTennis.h" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fruits.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="100" column="15" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fruits.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="70" column="2" lean-forward="true" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
-          <folding>
-            <element signature="e#178#195#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

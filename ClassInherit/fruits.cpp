@@ -98,5 +98,8 @@ void TestFruits(){
     pBaseShape->operator=(cir);
     cir2=cir;
 //    cir.Hide(1,2);
+    Summetry s;
+    printf("--------\n");
+    s.Call();
 
 }
