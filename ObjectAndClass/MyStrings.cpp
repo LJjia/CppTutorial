@@ -250,3 +250,30 @@ void TestMyStrings() {
     InputPoint("123");
 }
 
+
+/*!
+ * 返回对象引用的函数
+ * @return
+ */
+MyStrings RetObjRef(){
+    MyStrings lo="123";
+    cout<<"quit func obj"<<endl;
+    return lo;
+}
+
+int& RetIntRef(int &r){
+    int a=0;
+    cout<<"quit func int"<<endl;
+    return r;
+}
+
+/*!
+ * 测试函数返回值
+ */
+void TestFuncRet(){
+    cout<<"=============\n"<<"Test func ret"<<endl;
+    int a=10;
+    int b=5;
+    a=RetIntRef(b);
+    cout<<"outer func run end "<<a<<endl;
+}

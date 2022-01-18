@@ -5,6 +5,8 @@
 
 using namespace std;
 
+void TestInOut();
+
 void TestCin(){
     string InputStr;
     cout<<"Input something"<<endl;
@@ -21,13 +23,21 @@ void TestCin(){
 int main() {
 
     std::cout << "Hello, World!" << std::endl;
-    TestFuncParam();
-    TestNewFeature();
-    TestDefaultParam();
-    TestOverload();
-    TestTemplate();
-    cout<<"hello world +++"<<endl;
-    TestCin();
+//    TestFuncParam();
+//    TestNewFeature();
+//    TestDefaultParam();
+//    TestOverload();
+//    TestTemplate();
+//    cout<<"hello world +++"<<endl;
+//    TestCin();
+    TestInOut();
+    int a[10]{1,2,3,4,5};
+    void* p=a;
+    int *pInt=a;
+    p=pInt;
+    cout<<"hello "<<endl<<flush;
+    std::endl(cout);
+    std::flush(cout);
     return 0;
 }
 

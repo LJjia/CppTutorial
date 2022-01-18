@@ -6,6 +6,7 @@ using namespace std;
 void TestMyStrings();
 void TestTimer();
 void TestMinute();
+void TestFuncRet();
 int main() {
 //    func();
 //    Stock tmp=Stock(10);
@@ -19,7 +20,8 @@ int main() {
 //    cout<<"sizeof static "<< sizeof(s_var)<<endl;
 //    TestTimer();
 //    TestMinute();
-    TestMyStrings();
+//    TestMyStrings();
+    TestFuncRet();
 
     return 0;
 }
